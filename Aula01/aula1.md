@@ -85,8 +85,8 @@ operador | exemplo | forma contraída | explicação
 + | a = a+4; | a+=4; | Soma 
 - | a = a-4; | a-=4; | Subtração
 / | a = a/4; | a/=4; | Divisão
-* | a = a*4; | a*=4; | Multiplicação
-++ ou -- | a++; --b; |  | Incrementa ou decrementa em uma unidade
+`*` | `a = a*4;` | `a*=4;` | Multiplicação
+++ ou -- | a++; | --b;  | Incrementa ou decrementa em uma unidade
 % | a = a % 2; | a%=2; | Resto da divisão 
 
 
