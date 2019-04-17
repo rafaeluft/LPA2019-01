@@ -129,7 +129,7 @@ O comando acima declara uma string capaz de reter 128 caracteres (127 se contarm
 int main(){
     char nome[128];
     printf("Entre com o nome: ");
-    scanf("%s", &nome);
+    scanf("%s", nome);
     printf("Nome=%s \n", nome);
     return 0;
 }
@@ -142,9 +142,9 @@ int main(){
 int main(){
     char nome[128];
     printf("Entre com o nome: ");
-    fgets(stdin, nome, 128);
-    printf("Nome=%s \n", nome);
-    puts(nome); //exibe e já coloca o  \n
+    fgets(nome, 128, stdin);
+    printf("Nome=%s", nome);
+    printf("%s", nome);
     return 0;
 }
 ```
