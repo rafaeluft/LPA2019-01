@@ -14,7 +14,7 @@ int main(){
     for(i=0; i<2; i++, putchar('\n'))
         for(j=0; j< cols; j++){
             M[i][j] = msg[cols*i + j];
-            //printf("%d ", M[i][j]);
+            printf("%d ", M[i][j]);
         }
     //Em M[i][j] agora está arranjado com sua mensagem
     //TODO: Multiplicar a matriz key por M
